@@ -9,9 +9,17 @@
                 "metadata": {
                     "name": "ball physics", 
                     "author": "lathryx", 
-                    "link": "%base_url%/[ROUTE]" 
+                    "link": "/balls/" 
                 }, 
                 "content": "a cool little physics simulation with bouncy balls (by Lathryx)" 
+            }, 
+            "bouncing ball": {
+                "metadata": {
+                    "name": "Agario Clone (Singleplayer)", 
+                    "author": "lathryx", 
+                    "link": "/agario/" 
+                }, 
+                "content": "A cool Agario clone using P5JS!" 
             } 
         } 
     }, 
@@ -19,7 +27,7 @@
         "metadata": {
             "name": "Ebb&Chat", 
             "author": "Lathryx", 
-            "link": "%base_url%/[ROUTE]" 
+            "link": "/ebbnchat/" 
         }, 
         "content": "A small chat app using pure HTML/CSS and the popular JavaScript library Socket.IO (WebSocket). (by Lathryx)" 
     }, 
@@ -27,7 +35,7 @@
         "metadata": {
             "name": "PLACEHOLDER", 
             "author": "unknown", 
-            "link": "%base_url%/[ROUTE]" 
+            "link": "/route/" 
         }, 
         "content": "This is placeholder content for the file system." 
     }, 
@@ -35,7 +43,7 @@
         "metadata": {
             "name": "PLACEHOLDER", 
             "author": "unknown", 
-            "link": "%base_url%/[ROUTE]" 
+            "link": "/route/" 
         }, 
         "content": "This is placeholder content for the file system." 
     }, 
@@ -43,7 +51,7 @@
         "metadata": {
             "name": "PLACEHOLDER", 
             "author": "unknown", 
-            "link": "%base_url%/[ROUTE]" 
+            "link": "/route/" 
         }, 
         "content": "This is placeholder content for the file system." 
     } 

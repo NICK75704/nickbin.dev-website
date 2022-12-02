@@ -120,7 +120,7 @@ export default function FileExplorer() {
                         const ItemIcon = fsIcons[(typeof item.content === "string") ? "link": "folder"]; 
 
                         return (
-                            <div className="group card card-compact w-full bg-transparent OFF-bg-stone-900 cursor-pointer hover:scale-105 transition-all" key={index} onClick={() => handle_cd([ ...fsPath, { type: (typeof item.content === "object") ? "folder" : "link", text: item.metadata.name }])}>
+                            <div className="group card card-compact w-full bg-transparent OFF-bg-stone-900 cursor-pointer hover:scale-105 transition-all" key={index} onClick={() => (typeof item.content === "object") ? handle_cd([ ...fsPath, { type: (typeof item.content === "object") ? "folder" : "link", text: item.metadata.name }]) : window.location.href = item.metadata.link}>
                                 <figure className="px-10 pt-10 h-56 OFF-shadow-xl OFF-hover:shadow-2xl">
                                     <ItemIcon className="group-hover:drop-shadow-xl transition-all w-auto" /> 
                                 </figure> 
