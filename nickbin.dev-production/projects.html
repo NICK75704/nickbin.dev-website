@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nickbin.dev About</title>
+    <title>nickbin.dev Projects</title>
 
     <style>
         h1 {text-align: center;}
         p {text-align: center;}
         img {display: block; margin-left: auto; margin-right: auto;}
-        div#nav{text-align: center;}
-        div#content{
-            padding-left: "500px";
-            padding-right: "500px";
-        }
+        div{text-align: center;}
+        ul{text-align: center;}
+        li{text-align: center; font-size:"140%";}
+        h1{text-align: center;}
+        a{text-align: center;}
         @font-face {
             font-family: callingcode;
             src: url(images+fonts/CallingCode-Regular.ttf);
@@ -31,7 +31,7 @@
             }
         html, body {
             user-select: none; 
-        }
+            }
     </style>
 </head>
 <body>
@@ -42,9 +42,20 @@
         <a href = "about.html" style="font-size: 180%;">About</a>
         <a href = "projects.html" style="font-size: 180%;">Projects</a>
     </div> 
-    <h1 id="title">About</h1>
-    <div id="content">
-        <p style = "font-size: 140%;">My name is Nick, this is my website. This is where i will eventually host projects and services. Currently, everything is selfhosted.</p>
+    <h1 id="title">Projects</h1>
+    <div id = content>
+        <ul id = "files">
+            <h1>Apple related stuff</h1>
+            <li><a href = "projects/Cover Art.zip">DVD sized cover art for some older macOS versions</a></li>
+            <h1>3-D Printing stuff</h1>
+            <li><a href = "projects/ender 3 pro cura profile.curaprofile">My Ender-3 Pro Cura profile</a></li>
+            <h1>Code and Applications</h1>
+            <li><a href="projects/telnet native chat.zip">Python based chat server accessible via telnet</a></li>
+            <li><a href="projects/p5.js-screen-saver.saver.zip">macOS screensaver simmilar to the game on the front page <a href="https://github.com/Lathryx">designed by Cayden (Lathryx on GitHub)</a> and adapted by me :)</a></li>
+            <h1>Other</h1>
+            <li><a href="projects/iPhone 11 case.zip">3-D Printable iPhone 11 case</a></li>
+            <li><a href="projects/MCTemplate.zip">Paper Minecraft server template</a></li>
+        </ul>
     </div>
 </body>
 </html>

@@ -12,13 +12,19 @@
     <style>
         h1 {text-align: center;}
         p {text-align: center;}
-        ul#nav li{display: inline; text-align: center;}
         div#nav{text-align: center;}
         @font-face {
-            font-family: AristaPro;
-            src: url(arista-pro.proalternate.ttf);
+            font-family: callingcode;
+            src: url(images+fonts/CallingCode-Regular.ttf);
             }
-            * {
+            p#content{
+            font-family: callingcode;
+            }
+        @font-face {
+            font-family: AristaPro;
+            src: url(images+fonts/arista-pro.proalternate.ttf);
+            }
+            div#nav, h1#title{
             font-family: AristaPro;
             }
         html, body {
@@ -37,15 +43,15 @@
     </style> 
 </head>
 <body>
-    <img src="nickbin.dev-logo-1.png" alt="Logo" class="center">
-    <h1 style="font-family:AristaPro">Welcome to nickbin.dev!</h1>
+    <img src="images+fonts/nickbin.dev-logo-1.png" alt="Logo" class="center">
     <div id = "nav">
-        <ul id="nav" style="font-size: 180%; display: block; margin: auto; margin-right: auto; inline-size: auto;">
-            <li><a href="about.html">About</a></li>
-            <li><a href="futureplans.html">Plans</a></li>  
-        </ul>
+        <a href = "index.html" style = "font-size: 180%;">Home</a>
+        <a href = "futureplans.html" style="font-size: 180%;">Plans</a>
+        <a href = "about.html" style="font-size: 180%;">About</a>
+        <a href = "projects.html" style="font-size: 180%;">Projects</a>
     </div>
-    <p style="font-family:AristaPro">This page is under construction. Meanwhile, please mess with this fun thing made by Cayden <a href="https://github.com/Lathryx">(Lathryx on github)</a>!</p>
+    <h1 style="font-family:AristaPro">Welcome to nickbin.dev!</h1>
+    <p id="content" style="font-size: 140%;">This page is under construction. Meanwhile, please mess with this fun thing made by Cayden <a href="https://github.com/Lathryx">(Lathryx on github)</a>!</p>
     <div id="container"></div> 
 </body>
 </html>
